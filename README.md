@@ -1,5 +1,5 @@
 # simple-java-maven-app
-
+Poll scm testing
 
 web hook testing for jenkins added webhook into repo settings
 [Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
