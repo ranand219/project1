@@ -1,4 +1,4 @@
-# simple-java-maven-app
+# simple-java-maven-app and test app
 Poll scm testing f
 
 web hook testing for jenkins added webhook into repo settings
