@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools { 
         maven 'maven' 
-        jdk 'java1.8' 
+        jdk 'java1.8.191' 
     }
     stages {
         stage ('Initialize') {
@@ -21,6 +21,7 @@ pipeline {
         }
         
         stage ('build') {
+	    when { changeset "anand/*.txt" }
             steps {
                 sh 'mvn clean install'
             }
