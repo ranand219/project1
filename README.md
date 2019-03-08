@@ -1,5 +1,5 @@
 # simple-java-maven-app and test app
-webhook testing testing 
+webhook all events testing testing 
 
 web hook testing for jenkins added webhook into repo settings
 [Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
